@@ -12,11 +12,27 @@ if (x < 20) {
     console.log("x>20 này")
 }
 
-// while
-let a = 9.4;
-while (a < 10) {
-    if (a > 9 && a <= 10) {
-        console.log("Ban nay la sinh vien suat xac")
-    }
+// swich case
 
+let a = 9.4;
+switch (true) {
+    case (a < 10 && a > 9):
+        console.log("Sinh viên xuất sắc")
+        break;
+
+    case 9:
+        console.log("Sinh viên giỏi")
+        break;
+
+    case 8:
+        console.log("Sinh viên khá")
+        break;
+
+    case 7:
+        console.log("Sinh viên trung bình")
+        break;
+
+    default:
+        console.log("Erorr condiittion", a);
+        break;
 }
