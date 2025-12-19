@@ -31,3 +31,16 @@ console.log(nodeList.getAttribute("title")) // first
 // chú ý setAttribute
 //cach ma basic chi co the set dc trong cac tag suitable
 // cach work co the lam full
+console.log("=====================Btap======================");
+//b1 
+
+const click = document.querySelector("button");
+
+click.addEventListener("click", () => {
+    if (click.getAttribute("data-state") === "off") {
+        click.setAttribute("data-state", "on");
+    } else {
+        click.setAttribute("data-state", "off");
+    }
+});
+
