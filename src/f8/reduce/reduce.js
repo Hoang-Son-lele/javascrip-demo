@@ -61,3 +61,9 @@ const beta = course.reduce(calculate, 0)
 
 console.log(beta)
 
+// const a = [1, 4, 6, 9, 12];
+// const sum = a.reduce((temp, value) => {
+//     return temp + value
+// }, 0)
+// console.log(sum)
+
